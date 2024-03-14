@@ -56,10 +56,14 @@ function Quiz() {
     <div className='md:w-2/3 w-11/12 h-auto bg-white rounded-md m-auto shadow-xl p-3'>
       {isTestOver?(<Risults Answers={answer}/>):(
       <div className='flex flex-col items-center'>
-        <div className='w-full h-24 p-4 flex justify-between items-center border-b-2 border-b-yellow-600'>
-          <h3 className='text-green-800 text-sm md:text-2xl'>time you have:15 Min</h3>
-          <h3 className='text-blue-200 text-sm bg-blue-800 border-blue-800 rounded-lg p-2 md:p-4 md:text-2xl'>Free Mock Test</h3>
-          <h3 className='text-red-800 text-sm md:text-2xl'>Time:{time}</h3>
+        <div className='w-full h-auto p-4 flex flex-col justify-between items-center border-b-2 border-b-blue-900'>
+          <div className='w-full flex justify-center items-start h-auto p-2'>
+            <h3 className='text-blue-200 text-sm bg-blue-800 border-blue-800 rounded-lg p-2 md:p-4 md:text-2xl'>Free Mock Test</h3>
+          </div>
+          <div className='w-full flex justify-between items-start h-auto p-2'>
+            <h3 className='text-gray-600 text-sm md:text-2xl'>Test Duration:15 Min</h3>
+            <h3 className='text-red-800 text-sm md:text-2xl'>Time:{time}</h3>
+          </div>
         </div>
           {questions.question ? (<div className="md:w-4/5 w-full h-4/5 m-3">
             <QuestionData qid={qid} question={questions.question}/>
