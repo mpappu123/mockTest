@@ -1,0 +1,227 @@
+{
+  "total": 20,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does CPU stand for?",
+      "options": {
+        "a": "Central Processing Unit",
+        "b": "Computer Processing Unit",
+        "c": "Central Processor Unit",
+        "d": "Computer Processor Unit"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 2,
+      "question": "What is RAM used for?",
+      "options": {
+        "a": "Long-term storage of data",
+        "b": "Running programs and applications",
+        "c": "Displaying graphics on the screen",
+        "d": "Connecting to the internet"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 3,
+      "question": "What is the primary function of Microsoft Word?",
+      "options": {
+        "a": "Creating presentations",
+        "b": "Web browsing",
+        "c": "Word processing",
+        "d": "Database management"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 4,
+      "question": "What is a spreadsheet and what is the most common application used for them?",
+      "options": {
+        "a": "A program for creating presentations",
+        "b": "A program for organizing data in rows and columns",
+        "c": "A program for web browsing",
+        "d": "A program for managing databases"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 5,
+      "question": "What is a slide deck and what application is used to create them in MS Office?",
+      "options": {
+        "a": "A spreadsheet program",
+        "b": "A word processing program",
+        "c": "A program for creating presentations",
+        "d": "A database management program"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 6,
+      "question": "Briefly describe the function of Microsoft Access.",
+      "options": {
+        "a": "A word processing program",
+        "b": "A program for creating presentations",
+        "c": "A spreadsheet program",
+        "d": "A database management program"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 7,
+      "question": "What is the difference between the World Wide Web (WWW) and the internet?",
+      "options": {
+        "a": "The WWW is a part of the internet",
+        "b": "The internet is a part of the WWW",
+        "c": "They are completely unrelated",
+        "d": "No difference"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 8,
+      "question": "What is a web browser and what is its function?",
+      "options": {
+        "a": "A program for managing databases",
+        "b": "A program for creating presentations",
+        "c": "A program to access and navigate the World Wide Web",
+        "d": "A program for word processing"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 9,
+      "question": "What is a search engine and how does it work?",
+      "options": {
+        "a": "A program for creating presentations",
+        "b": "A program that helps users find information on the internet",
+        "c": "A program for managing databases",
+        "d": "A program for word processing"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 10,
+      "question": "What is the difference between a search term and a keyword?",
+      "options": {
+        "a": "There is no difference",
+        "b": "A search term is shorter",
+        "c": "A keyword is a single word or short phrase",
+        "d": "A search term can be a longer phrase or question"
+      },
+      "answer": "d"
+    },
+    {
+      "id": 11,
+      "question": "What does HTML stand for?",
+      "options": {
+        "a": "Hyper Text Markup Language",
+        "b": "Hyperlinks and Text Markup Language",
+        "c": "Home Tool Markup Language",
+        "d": "Hyperlinks and Text Management Language"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 12,
+      "question": "What is CSS used for in web development?",
+      "options": {
+        "a": "Defining the structure of a webpage",
+        "b": "Providing interactivity to a webpage",
+        "c": "Styling the appearance of a webpage",
+        "d": "Managing databases on a webpage"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 13,
+      "question": "What does HTTP stand for?",
+      "options": {
+        "a": "Hyper Text Transfer Package",
+        "b": "Hyperlinks and Text Transfer Protocol",
+        "c": "Hyper Text Transfer Protocol",
+        "d": "Home Tool Transfer Protocol"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 14,
+      "question": "What is the purpose of a firewall in network security?",
+      "options": {
+        "a": "To prevent unauthorized access to or from a private network",
+        "b": "To accelerate internet speed",
+        "c": "To filter spam emails",
+        "d": "To optimize search engine results"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 15,
+      "question": "What is the role of a DNS server?",
+      "options": {
+        "a": "To encrypt internet traffic",
+        "b": "To translate domain names into IP addresses",
+        "c": "To host websites",
+        "d": "To manage email servers"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of a cookie in web browsing?",
+      "options": {
+        "a": "To store website data on the client-side",
+        "b": "To track user behavior across multiple websites",
+        "c": "To optimize search engine results",
+        "d": "To provide a secure connection to websites"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 17,
+      "question": "What is the significance of the term 'open source' in software development?",
+      "options": {
+        "a": "Software available for free",
+        "b": "Software with publicly accessible source code",
+        "c": "Software developed without a clear purpose",
+        "d": "Software designed for commercial use only"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 18,
+      "question": "What is the difference between HTTP and HTTPS?",
+      "options": {
+        "a": "HTTP is a secure protocol, whereas HTTPS is not",
+        "b": "HTTPS is a secure protocol, whereas HTTP is not",
+        "c": "There is no difference between HTTP and HTTPS",
+        "d": "HTTP and HTTPS are both secure protocols"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 19,
+      "question": "What is the purpose of a compiler in programming?",
+      "options": {
+        "a": "To convert source code into machine code",
+        "b": "To execute source code line by line",
+        "c": "To debug source code",
+        "d": "To optimize source code for performance"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 20,
+      "question": "What does SQL stand for and what is its primary use?",
+      "options": {
+        "a": "Structured Query Language; used for managing databases",
+        "b": "Sequential Query Language; used for web development",
+        "c": "Simple Query Language; used for network protocols",
+        "d": "Structured Question Language; used for data analysis"
+      },
+      "answer": "a"
+    }
+    
+  ]
+}
+   
