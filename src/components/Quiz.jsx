@@ -17,7 +17,7 @@ function Quiz() {
     endTime:0,
     timerType: 'DECREMENTAL',
     onTimeOver:()=>{
-      setIsTestOver(true);
+      handleAbort();
     }
   });
 
@@ -44,7 +44,9 @@ function Quiz() {
       [key]: data,
     }));
   };
-
+  const handleAbort =()=>{
+    setIsTestOver(true);
+  }
   const handleOptionSelect = (optionValue) => {
     if (!timerStarted){
       setTimerStarted(true)
@@ -61,7 +63,7 @@ function Quiz() {
             <h3 className='text-blue-200 text-sm bg-blue-800 border-blue-800 rounded-lg p-2 md:p-4 md:text-2xl'>Free Mock Test</h3>
           </div>
           <div className='w-full flex justify-between items-start h-auto p-2'>
-            <h3 className='text-gray-600 text-sm md:text-2xl'>Test Duration:15 Min</h3>
+            <h3 className='text-gray-600 text-sm md:text-2xl'>Test Duration:10 Min</h3>
             <h3 className='text-red-800 text-sm md:text-2xl'>Time:{time}</h3>
           </div>
         </div>
@@ -71,6 +73,7 @@ function Quiz() {
           </div>) : (<p>Loading....</p>)}
           <div className='w-full flex h-16 justify-between items-center pl-6 pr-6'>
             <button className='btn btn-outline btn-secondary' onClick={handlePrevious}>previous</button>
+            <button className='btn btn-outline btn-error' onClick={handleAbort}>End Test</button>
             <button className='btn btn-outline btn-secondary' onClick={handleNext}>next</button>
           </div>
       </div>)}
