@@ -58,12 +58,12 @@ function Quiz() {
     updateAnswer(qid, answerData);
   };
   return (
-    <div className='md:w-2/3 w-11/12 h-auto bg-white rounded-md m-auto shadow-xl p-3'>
+    <div className='md:w-2/3 w-11/12 h-auto bg-white rounded-md m-auto mt-3 shadow-xl p-3'>
       {isTestOver ? (<Risults Answers={answer} />) : (
         <div className='flex flex-col items-center'>
           <div className='w-full h-auto p-4 flex flex-col justify-between items-center border-b-2 border-b-blue-900'>
             <div className='w-full grid grid-cols-6 h-auto p-2'>
-              <h3 className='text-blue-200 text-sm col-span-3 sm:col-span-5 bg-blue-800 flex justify-center items-center border-blue-800 rounded-lg p-2 md:p-4 md:text-2xl'>Free Mock Test</h3>
+              <h3 className='text-blue-100 text-sm col-span-3 sm:col-span-5 bg-blue-800 flex justify-center items-center border-blue-800 rounded-lg p-2 md:p-4 md:text-2xl'>Free Mock Test</h3>
                 <label className="cursor-pointer label col-span-3 sm:col-span-1">
                   <span className="label-text text-gray-800 sm:text-xl">Test mode</span>
                   <input type="checkbox" defaultChecked onChange={handleTestMode} className="checkbox checkbox-secondary" />

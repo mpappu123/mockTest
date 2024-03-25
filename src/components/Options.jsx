@@ -3,7 +3,7 @@ function Options({questions,handleOptionSelect,mode,optionAnswer}) {
 
   return (
     <div className='w-full pl-6'>
-          <ul className='flex md:w-2/3 w-full flex-col text-sm sm:text-xl text-gray-800'>
+          <ul className='flex md:w-2/3 w-full flex-col text-sm sm:text-lg text-gray-800'>
             {Object.values(questions.options || {}).map((optionValue) => (
               <li key={optionValue} className='bg-blue-50 hover:bg-blue-100 rounded-xl p-3 m-1'>
                 <label className='cursor-pointer flex items-center'>
